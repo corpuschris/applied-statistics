@@ -7,7 +7,7 @@ This repository contains my work for the Applied Statistics assessment. All prob
 
 ## Repository Structure
 
-.
+
 ├── problems.ipynb        ← main notebook with my solutions  
 ├── problems.md           ← problem descriptions 
 ├── requirements.txt      ← packages needed  
@@ -20,21 +20,21 @@ This repository contains my work for the Applied Statistics assessment. All prob
 
 2. Create and activate a virtual environment:
 
-Windows:
-python -m venv venv
-venv\Scripts\activate
+    Windows:
+    python -m venv venv
+    venv\Scripts\activate
 
-macOS / Linux:
-python3 -m venv venv
-source venv/bin/activate
+    macOS / Linux:
+    python3 -m venv venv
+    source venv/bin/activate
 
 3. Install the requirements:
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Launch Jupyter:
-jupyter lab
-or
-jupyter notebook
+    jupyter lab
+    or
+    jupyter notebook
 
 5. Open problems.ipynb and run the cells from top to bottom.
 
