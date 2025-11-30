@@ -7,11 +7,10 @@ This repository contains my work for the Applied Statistics assessment. All prob
 
 ## Repository Structure
 
-
 ├── problems.ipynb        ← main notebook with my solutions  
-├── problems.md           ← problem descriptions 
+├── problems.md           ← problem descriptions  
 ├── requirements.txt      ← packages needed  
-
+└── README.md             ← this file
 ---
 
 ## How to Run the Notebook
@@ -20,21 +19,21 @@ This repository contains my work for the Applied Statistics assessment. All prob
 
 2. Create and activate a virtual environment:
 
-    Windows:
-    python -m venv venv
-    venv\Scripts\activate
+   Windows:  
+   python -m venv venv  
+   venv\Scripts\activate  
 
-    macOS / Linux:
-    python3 -m venv venv
-    source venv/bin/activate
+   macOS / Linux:  
+   python3 -m venv venv  
+   source venv/bin/activate  
 
-3. Install the requirements:
-    pip install -r requirements.txt
+3. Install the requirements:  
+   pip install -r requirements.txt  
 
-4. Launch Jupyter:
-    jupyter lab
-    or
-    jupyter notebook
+4. Launch Jupyter:  
+   jupyter lab  
+   or  
+   jupyter notebook  
 
 5. Open problems.ipynb and run the cells from top to bottom.
 
@@ -42,11 +41,12 @@ This repository contains my work for the Applied Statistics assessment. All prob
 
 ## Notes
 
-- Each problem has its own heading.
-- Code cells are small and commented.
-- Markdown cells explain what I am doing and why.
-- Simulations use NumPy (official docs: https://numpy.org/doc/).
-- The work is written for someone with a computing background.
+- Each problem has its own heading.  
+- Code cells are small and commented.  
+- Markdown cells explain what I am doing and why.  
+- Simulations use NumPy (official docs: https://numpy.org/doc/).  
+- Plots for some problems are created with matplotlib (https://matplotlib.org/).  
+- The work is written for someone with a computing background.  
 
 ---
 
@@ -58,8 +58,9 @@ Commits are added gradually to show steady progress. Each commit focuses on one 
 
 ## References
 
-- NumPy: https://numpy.org/doc/
-- Jupyter: https://jupyter.org/
+- NumPy: https://numpy.org/doc/  
+- Matplotlib: https://matplotlib.org/  
+- Jupyter: https://jupyter.org/  
 
 (References also appear directly in markdown where used.)
 
