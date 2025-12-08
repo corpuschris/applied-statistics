@@ -1,7 +1,7 @@
 # Higher Diploma in Science - Data Analytics  
 # Applied Statistics – Assessment
 
-This repository contains my work for the Applied Statistics assessment. All problems are solved inside the problems.ipynb notebook. The aim is to use simulations, basic statistical ideas, and clear explanations. This assessment focuses on using simulations and statistical reasoning to explore the problems outlined in the module.
+This repository contains my work for the Applied Statistics assessment. All problems are solved inside the `problems.ipynb` notebook. The aim is to use simulations, basic statistical ideas, and clear explanations. This assessment focuses on using simulations and statistical reasoning to explore the problems outlined in the module.
 
 ---
 
@@ -10,20 +10,21 @@ This repository contains my work for the Applied Statistics assessment. All prob
 ├── problems.ipynb        ← main notebook with my solutions  
 ├── problems.md           ← problem descriptions  
 ├── requirements.txt      ← packages needed  
-└── README.md             ← this file
+└── README.md             ← this file  
+
 ---
 
 ## How to Run the Notebook
 
-1. Make sure you have Python 3.9+ installed.
+1. Make sure you have **Python 3.9+** installed.
 
 2. Create and activate a virtual environment:
 
-   Windows:  
+   **Windows:**  
    python -m venv venv  
    venv\Scripts\activate  
 
-   macOS / Linux:  
+   **macOS / Linux:**  
    python3 -m venv venv  
    source venv/bin/activate  
 
@@ -35,7 +36,7 @@ This repository contains my work for the Applied Statistics assessment. All prob
    or  
    jupyter notebook  
 
-5. Open problems.ipynb and run the cells from top to bottom.
+5. Open `problems.ipynb` and run the cells from top to bottom.
 
 ---
 
@@ -45,7 +46,7 @@ This repository contains my work for the Applied Statistics assessment. All prob
 - Code cells are small and commented.  
 - Markdown cells explain what I am doing and why.  
 - Simulations use NumPy (official docs: https://numpy.org/doc/).  
-- Plots for some problems are created with matplotlib (https://matplotlib.org/).  
+- Plots for some problems (e.g. Problems 2 and 3) are created with matplotlib (https://matplotlib.org/).  
 - The work is written for someone with a computing background.  
 
 ---
